@@ -83,7 +83,7 @@ const Works = () => {
     
     <div className="w-full flex">
       <motion.p
-        variants={fadeIn("","", 0.1, 1)}
+        variants={fadeIn("right", "spring", 0.75 )}
         className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
         Following projects showcases my skills and experience through.
