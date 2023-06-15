@@ -102,4 +102,3 @@ const Works = () => {
 
 export default SectionWrapper(Works, "");
 
-//2:01:40 finalizado
