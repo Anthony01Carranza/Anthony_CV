@@ -65,7 +65,7 @@ const Contact = () => {
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div 
         variants={ slideIn('left', "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        classN ame="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -78,37 +78,51 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input 
+              required
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium peer "
             />
+             <p className="mt-2 hidden  peer-invalid:block text-pink-700 text-sm">
+             Please enter your name.
+            </p>
+
 
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Email</span>
             <input 
+              required
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium peer"
+              
             />
+            <p className="mt-2 hidden  peer-invalid:block text-pink-700 text-sm">
+              Please provide a valid email address.
+            </p>
 
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea 
+              required
               rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium peer"
             />
+            <p className="mt-2 hidden  peer-invalid:block text-pink-700 text-sm">
+            please write your message.
+            </p>
 
           </label>
 

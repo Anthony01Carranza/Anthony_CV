@@ -9,14 +9,9 @@ import { fadeIn, textVariant } from "../utils/motion";
 
  const ProjectCard = ({ index, name, description, tags, image, source_code_link, source_code_Git, }) => {
     return (
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <Tilt
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450
-          }}
-          className="bg-tertiary p-5 rounded-2xl sm:w-[340px] md:max-lg:w-[650px] md:max-lg:mx-3 w-full"
+      <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.55)}>
+        <div
+          className="bg-tertiary p-5 rounded-2xl sm:w-[340px] md:max-lg:w-[650px] md:max-lg:mx-3 w-full lg:brightness-50 lg:hover:brightness-100 lg:hover:scale-105 transition ease-in-out delay-50 duration-300 "
         >
           <div className="relative w-full h-[230px]">
             <img 
@@ -63,7 +58,7 @@ import { fadeIn, textVariant } from "../utils/motion";
             ))}
 
           </div>
-        </Tilt>
+        </div>
       </motion.div>
     )
 }
@@ -83,7 +78,7 @@ const Works = () => {
     
     <div className="w-full flex">
       <motion.p
-        variants={fadeIn("right", "spring", 0.75 )}
+        variants={fadeIn("right", "spring", 0.50 )}
         className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
         Following projects showcases my skills and experience through.
@@ -91,7 +86,7 @@ const Works = () => {
       </motion.p>
     </div>
 
-    <div className="mt-20 flex flex-wrap gap-7">
+    <div className="mt-20 flex flex-wrap gap-7 ">
       {projects.map((project, index) => (
         <ProjectCard 
           key={`project-${index}`}
