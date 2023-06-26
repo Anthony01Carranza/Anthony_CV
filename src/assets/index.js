@@ -24,7 +24,7 @@ import tripguide from "./tripguide.png";
 
 //last part
 import sketch from "./tech/sketchs.png"
-import astro from "./tech/astro.png"
+import astro from "./tech/astro.svg"
 import xd from "./tech/xd.png"
 import notion from "./tech/notion.png"
 import trello from "./tech/trello.png"
@@ -33,6 +33,7 @@ import freelance from "./freelance.png"
 import vite from "./vite.png"
 import website from "./website.png"
 import clip  from "./clic.png"
+import linkedin from "./linkedin.png"
 
 //Proyect
 
@@ -60,6 +61,7 @@ export {
   project4,
   project5,
   project6,
+  linkedin,
 //-------
   logo,
   backend,

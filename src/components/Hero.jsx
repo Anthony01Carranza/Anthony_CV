@@ -15,16 +15,16 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&#39;m <span className="text-[#915eff]">Anthony</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I Web Development, user <br className="sm:block hidden" />interfaces and web applicactions.
+          Web and user interface developer.
           </p>
         </div>
       </div>
 
         <ComputersCanvas />
 
-        <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">
           <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#915eff] flex justify-center items-start p-2">{/*La libreria {} motion } from 'framer-motion' se mando a llamar y se dio animacion a un circulo de esta manera  */}
+            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#915eff] flex justify-center items-start p-2">
               <motion.dev 
                 animate={{
                   y: [0, 24, 0]

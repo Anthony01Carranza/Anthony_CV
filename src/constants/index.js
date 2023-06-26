@@ -27,6 +27,8 @@ import {
     project4,
     project5,
     project6,
+    linkedin,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -41,6 +43,21 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+  ];
+
+  export const socialNetworksLinks = [
+    {
+      id: "linkedin",
+      title: "Linkedin",
+      icon: linkedin,
+      source_code_link: "https://www.linkedin.com/in/anthony-alexander-carranza-ramirez-6a77ab25a/ ",
+    },
+    {
+      id: "github",
+      title: "git-hub",
+      icon: github,
+      source_code_link: "https://github.com/Anthony01Carranza",
     },
   ];
   
@@ -63,7 +80,7 @@ import {
     {
       title: "Languages",
       icon: creator,
-      content: ["nativo:Spanish   ", "English"],
+      content: ["native:Spanish & ", "English"],
     },
   ];
   
@@ -132,51 +149,50 @@ import {
   
   const experiences = [
     {
-      title: "Coding bootcamp",
-      company_name: "Alura",
-      icon: alura,
-      iconBg: "#004e98",
-      date: "June 2022 - December 2022",
-      points: [
-        "Front End bootcamp student, I learned the basics of programming and the basics of css, html and js.",
-        "I have knowledge and experience with Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "freelance work",
-      company_name: "freelance",
-      icon: freelance,
-      iconBg: "#ffffff",
-      date: "December 2022 - April 2023",
-      points: [
-        "This period i have designed and created websites for restaurants with pure code. only using html, css and js.",
-        "Creating high quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Have a good relationship with the client for future code maintenance or other projects.",
-      ],
-    },
-    {
       title: "Web Developer",
       company_name: "Web Developer",
       icon: website,
       iconBg: "#ffffff",
       date: "April 2023 - Jan 2023",
       points: [
-        "Improve my knowledge in programming logic using JavaScript.",
-        "I am creating projects to improve my skills and using other frameworks to facilitate the layout and optimization of the project.",
-        "Using javascript ES6, react-spring-library, serverless Api, in my projects.",
+        "Updated my technical skills employing JavaScript",
+        "I am constantly doing projects to improve my skills and implemting other frameworks to facilitate the layout and optimization of the web pages.",
+        "Execute javascript ES6, react-spring-library, and serverless Api, in my projects.",
+      ],
+    },
+    {
+      title: "Freelance Work",
+      company_name: "freelance",
+      icon: freelance,
+      iconBg: "#ffffff",
+      date: "December 2022 - April 2023",
+      points: [
+        "I have designed and implemented websites for restaurants with pure code, using HTML, CSS and js.",
+        "Validation was done to the websites to ensure their responsiveness and cross-browser compatibility.",
+        "The satisfaction with the deliverables allowed me to create a good relationship for future code maintenance and additional projects.",
+      ],
+    },
+    {
+      title: "Coding Bootcamp",
+      company_name: "Alura",
+      icon: alura,
+      iconBg: "#004e98",
+      date: "January 2022 - December 2022",
+      points: [
+        "Front End Bootcamp student, I learned the basics of programming and the basics of CSS, HTML and js",
+        "I have experience developing and maintaining web applications using React.js and other related technologies.",
+        "With cross-functional teams that included designers, product managers, and other developers we implemented high-quality products.",
+        "Implemented a responsive design and ensured cross-browser compatibility.",
+        "Participated in code reviews and provided constructive feedback to other developers.",
       ],
     },
   ];
   
   const projects = [
     {
-      name: "web restaurant",
+      name: "Web Restaurant",
       description:
-        "the landing page has a beautiful product display with a responsible design and pure code.",
+        "The landing page exudes excellence with its meticulously crafted responsive layout and pristine code.",
       tags: [
         {
           name: "html",
@@ -304,7 +320,7 @@ import {
       image: project6,
       source_code_link: "https://anthony01carranza.github.io/Anthony_About_Me/",
       source_code_Git: "https://github.com/Anthony01Carranza/Anthony_About_Me/deployments/activity_log?environment=github-pages",
-    },
+    }
   ];
   
   export { services, technologies, experiences, projects };

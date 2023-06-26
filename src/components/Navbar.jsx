@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
-import { navLinks } from '../constants';
+import { navLinks, socialNetworksLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
@@ -41,6 +41,18 @@ const Navbar = () => {
             ))}
           </ul>
 
+          <ul className=" list-none hidden sm:flex flex-row gap-10 ">
+            {socialNetworksLinks.map((link) => (
+              <li
+              className='cursor-pointer'
+                key={link.id}
+                onClick={() => window.open(link.source_code_link, "_black")}
+              >
+                <img className='h-10 w-10' src={link.icon} alt={link.title} />
+              </li>
+            ))}
+          </ul>
+
           <div className='sm:hidden flex flex-1 justify-end items-center'>
             <img 
             src={toggle ? close : menu} 
@@ -65,6 +77,18 @@ const Navbar = () => {
                 }}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+
+          <ul className=" list-none flex justify-end items-start flex-col gap-4  ">
+            {socialNetworksLinks.map((link) => (
+              <li
+              className=' font-poppins font-medium cursor-pointer text-[16px] text-center pl-9'
+                key={link.id}
+                onClick={() => window.open(link.source_code_link, "_black")}
+              >
+                <img className='h-10 w-10' src={link.icon} alt={link.title} />
               </li>
             ))}
           </ul>
