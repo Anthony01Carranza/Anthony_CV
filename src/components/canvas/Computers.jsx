@@ -78,4 +78,3 @@ export default ComputersCanvas;
 
 // si solo muestra una pantalla blanca significa que falta el paquete 3D para hacerlo
 // se necesita este comando: "npm install --legacy-peer-deps three" en la terminal del proyecto. 53.53 
-// se agrego le codigo de load y ya funciona. 1:00:09

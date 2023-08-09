@@ -95,6 +95,3 @@ const Works = () => {
 
 export default SectionWrapper(Works, "");
 
-//<div className="w-full flex">
-      
-//</div>

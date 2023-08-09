@@ -102,4 +102,3 @@ const Navbar = () => {
 
 export default Navbar
 
-//navbar funciona y se termino de modificar hasta 10.47 todo bien

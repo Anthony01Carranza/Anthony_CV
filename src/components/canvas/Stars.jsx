@@ -44,4 +44,3 @@ const StarsCanvas = () => {
 
 export default StarsCanvas;
 
-//2:39:15

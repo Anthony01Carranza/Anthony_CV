@@ -27,6 +27,8 @@ import {
     project4,
     project5,
     project6,
+    project7,
+    project8,
     linkedin,
     github,
   } from "../assets";
@@ -102,11 +104,11 @@ import {
       icon: reactjs,
     },
     {
-      name: "astro",
+      name: "Astro",
       icon: astro,
     },
     {
-      name: "notion",
+      name: "Notion",
       icon: vite,
     },
     {
@@ -130,19 +132,19 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "xd",
+      name: "XD",
       icon: xd,
     },
     {
-      name: "sketch",
+      name: "Sketch",
       icon: sketch,
     },
   ];
@@ -195,15 +197,15 @@ import {
         "The landing page exudes excellence with its meticulously crafted responsive layout and pristine code.",
       tags: [
         {
-          name: "html",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
         {
-          name: "js",
+          name: "JS",
           color: "green-text-gradient",
         },
       ],
@@ -217,15 +219,15 @@ import {
         "This is an application to create daily activities. It is based on HTML. CSS and Javascript.",
       tags: [
         {
-          name: "html",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "js",
+          name: "JS",
           color: "pink-text-gradient",
         },
       ],
@@ -239,15 +241,15 @@ import {
         "This is an application to save notes. using DOM, Javascript, HTML and CSS.",
       tags: [
         {
-          name: "html",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "js",
+          name: "JS",
           color: "pink-text-gradient",
         },
       ],
@@ -256,26 +258,26 @@ import {
       source_code_Git: "https://github.com/Anthony01Carranza/note_book",
     },
     {
-      name: "Calculator",
+      name: "Tesla Landing Page",
       description:
-        "This application to create daily activities. It is based on HTML. CSS and Javascript.",
+        "This page is created with tailwind, Astro Frameword and typescript, to make a static page, which is light and responsive.",
       tags: [
         {
-          name: "html",
+          name: "Astro",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "js",
+          name: "Typescript",
           color: "pink-text-gradient",
         },
       ],
-      image: project4,
-      source_code_link: "https://calculator-project-fvflxyb02-anthony01carranza.vercel.app/",
-      source_code_Git: "https://github.com/Anthony01Carranza/calculator_project",
+      image: project8,
+      source_code_link: "https://tesla-demo-astro.vercel.app/",
+      source_code_Git: "https://github.com/Anthony01Carranza/tesla-demo-astro",
     },
     {
       name: "Individuals and Teams",
@@ -283,15 +285,15 @@ import {
         "This project is created with react and allows you to create, delete and modify groups and persons. ",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "js",
+          name: "JS",
           color: "pink-text-gradient",
         },
       ],
@@ -300,26 +302,26 @@ import {
       source_code_Git: "https://github.com/Anthony01Carranza/team_organization_app",
     },
     {
-      name: "My First CV ",
+      name: "Demo-Harry-potter-Legacy ",
       description:
-        "My first CV .",
+        "Demo-Harry-potter-Legacy. implementing the framework Astro, TS and TailwindCSS for the creation of this web site as well as making .map to search the information",
       tags: [
         {
-          name: "html",
+          name: "Astro",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCSS",
           color: "green-text-gradient",
         },
         {
-          name: "js",
+          name: "TS",
           color: "pink-text-gradient",
         },
       ],
-      image: project6,
-      source_code_link: "https://anthony01carranza.github.io/Anthony_About_Me/",
-      source_code_Git: "https://github.com/Anthony01Carranza/Anthony_About_Me/deployments/activity_log?environment=github-pages",
+      image: project7,
+      source_code_link: "https://harry-legacy-astro.vercel.app/",
+      source_code_Git: "https://github.com/Anthony01Carranza/harry-legacy-astro",
     }
   ];
   

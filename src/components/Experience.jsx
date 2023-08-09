@@ -66,4 +66,3 @@ const Experience = () => {
 
 export default SectionWrapper(Experience, "work");
 
-//finalizado 1:34:21
